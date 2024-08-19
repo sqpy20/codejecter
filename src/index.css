@@ -1,0 +1,174 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* #nav_top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: aquamarine;
+} */
+.overflow_none{
+  overflow-x: hidden;
+}
+.rounded-custom{position: relative;
+  border-radius:58% 42% 0% 100% / 53% 96% 4% 47%;
+  z-index: 20;
+}
+.CHECKBOX{
+  margin-right: 10px;
+  margin-left: 10px;
+} 
+.floating_service{
+  display: grid;
+ width: 90%;
+  border-radius: 10PX;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  padding: 4px;
+  /* width: fit-content; */
+  background-color: rgb(249, 252, 252);
+  box-shadow: 1px 1px 10px 1px rgb(211, 211, 211);
+      font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(205, 208, 211);
+height: 80vh;
+margin-bottom: 10px;
+}
+.floating_service h5{
+    margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: black;
+  width: fit-content;
+}
+.floating_service span{
+  padding: 0;
+  margin: 0;
+  width: 70%;
+}
+
+.double{
+  border: 5px double rgb(30, 101, 208);
+  border-radius: 10px;
+}
+.fit_content {
+  min-width: fit-content;
+}
+/* Fonts */
+.sans-reg {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sans-bold {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.sans-reg-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.sans-bold-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-reg {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-reg-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+.caveat {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.team_details{
+  transition: all 1s ease-in;
+}
+.team:hover .team_details{
+  transform: translateY(0%);
+}
+.text_stroke_effect{
+  -webkit-text-stroke: 3px #333;
+  -webkit-text-fill-color: transparent;
+  
+  /* fallback */
+  color: #2911b0;
+}
